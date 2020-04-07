@@ -24,3 +24,10 @@ variable "https_port" {
 variable "available_zone" {
   default = "us-east-1a"
 }
+
+variable "ami_server" {
+  default = "ami-0c322300a1dd5dc79"
+}
+
+#ami-0affd4508a5d2481b CENTOS
+#ami-0c322300a1dd5dc79 REDHAT8
