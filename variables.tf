@@ -26,7 +26,7 @@ variable "available_zone" {
 }
 
 variable "ami_server" {
-  default = "ami-0c322300a1dd5dc79"
+  default = "ami-0affd4508a5d2481b"
 }
 
 #ami-0affd4508a5d2481b CENTOS
