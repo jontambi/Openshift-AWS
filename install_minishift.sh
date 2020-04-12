@@ -54,3 +54,8 @@ https://github.com/kubernetes/kubernetes/issues/83038
 
 #The node was low on resource: ephemeral-storage. Container galley was using 976Ki, which exceeds its request of 0
 
+2020-04-12T15:45:45.920477Z     info    Envoy command: [-c /etc/istio/proxy/envoy.yaml --restart-epoch 0 --drain-time-s 45 --parent-shutdown-time-s 60 --service-cluster istio-policy --service-node sidecar~172.17.0.15~istio-policy-788d955874-7wcfv.istio-system~istio-system.svc.cluster.local --max-obj-name-len 189 --allow-unknown-fields -l warning]
+2020-04-12T15:45:45.922929Z     info    watching /etc/certs for changes
+[2020-04-12 15:45:45.967][13][warning][misc] [external/envoy/source/common/protobuf/utility.cc:174] Using deprecated option 'envoy.api.v2.Cluster.hosts' from file cds.proto. This configuration will be removed from Envoy soon. Please see https://www.envoyproxy.io/docs/envoy/latest/intro/deprecated for details.
+[2020-04-12 15:45:45.967][13][warning][misc] [external/envoy/source/common/protobuf/utility.cc:174] Using deprecated option 'envoy.api.v2.Cluster.hosts' from file cds.proto. This configuration will be removed from Envoy soon. Please see https://www.envoyproxy.io/docs/envoy/latest/intro/deprecated for details.
+[2020-04-12 15:45:45.967][13][warning][misc] [external/envoy/source/common/protobuf/utility.cc:174] Using deprecated option 'envoy.api.v2.Cluster.hosts' from file cds.proto. This configuration will be removed from Envoy soon. Please see https://www.envoyproxy.io/docs/envoy/latest/intro/deprecated for details.
