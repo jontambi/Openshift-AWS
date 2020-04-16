@@ -6,7 +6,7 @@ variable "ec2_type" {
 
 variable "aws_region" {
   default = "us-east-1"
-  description = "Minishift Cluster"
+  description = "OKD311 Cluster"
 }
 
 variable "balancer_port" {
@@ -19,6 +19,26 @@ variable "ssh_port" {
 
 variable "https_port" {
   default = 8443
+}
+
+variable "kiali_port" {
+  default = 32284
+}
+
+variable "jaeger_port" {
+  default = 4443
+}
+
+variable "prometheus_port" {
+  default = 9099
+}
+
+variable "tracing_port" {
+  default = 30593
+}
+
+variable "ingressgateway_port" {
+  default = 80
 }
 
 variable "available_zone" {
