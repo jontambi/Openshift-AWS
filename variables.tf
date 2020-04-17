@@ -38,7 +38,7 @@ variable "tracing_port" {
 }
 
 variable "ingressgateway_port" {
-  default = 80
+  default = 32280
 }
 
 variable "available_zone" {
